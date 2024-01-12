@@ -16,8 +16,6 @@ const app = express();
 
 app.use(logger('dev'));
 app.use(express.json());
-const cors = require('cors');
-app.use(cors());
 
 
 // Configure both serve-favicon & static middleware

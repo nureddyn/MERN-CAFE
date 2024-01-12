@@ -19,7 +19,7 @@ export default function AuthPage({ setUser }) {
         : 
         <>
           <h1>Log In</h1>
-          <LoginForm />
+          <LoginForm setUser={setUser} />
         </>
       }
       <button onClick={handleAuthType}>
